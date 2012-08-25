@@ -42,5 +42,5 @@ require_once('include/MVC/SugarApplication.php');
 $app = new SugarApplication();
 $app->startSession();
 $app->execute();
-
+$test = "TEST!";
 ?>
